@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/*
+Workshop
+Fizz Buzz !
+
+Ouvrez votre éditeur et écrivez une fonction, 
+qui prend en paramètre n'importe-quel nombre entier, 
+et qui retourne :
+fizz" si c'est un multiple de 3
+"buzz" si c'est un multiple de 5
+"fizzbuzz" si c'est un multiple de 3 et 5
+l'entier d'origine, s'il n'a pas de multiples associés*/
+
+
+var fizzbuzz = function(number){
+
+    if(number % 3 === 0){
+        console.log("fizz");
+    }
+    else if(number % 5 === 0){
+        console.log("buzz");
+    }
+    else if(number % 3 === 0 && number % 5 ===0){
+        console.log("fizbuzz");
+    }
+    else{
+        console.log(number);
+    }
+}
+
+fizzbuzz(25);
+
+    </script>
+</body>
+</html>
